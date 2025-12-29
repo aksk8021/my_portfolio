@@ -1,257 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Portfolio Website</title>
-            <link rel="stylesheet" href="style.css">
-            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <header class="header">
-             <a href="#home" class="logo">
-            Mark <span>Gray</span>
+    <title>Ankit Singh | Android Software Engineer | Kotlin | AOSP</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Ankit Singh is an Android Software Engineer with expertise in Kotlin, AOSP, Android OS, system-level development, and scalable products used by millions of users worldwide.">
+    <meta name="keywords" content="Android Developer, Software Engineer, Kotlin, Java, AOSP, Android OS, System Design, Motorola">
+    <meta name="author" content="Ankit Singh">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <a href="#home" class="logo">
+        <span>Ankit</span> Kumar Singh
+    </a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="AnkitSingh_SE_Resume.pdf" download="AnkitSingh_Resume.pdf">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- ================= HOME ================= -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>
+            Hi, I'm <span>Ankit</span><br />Kumar Singh
+        </h1>
+
+        <h3>Software Engineer | Android Developer</h3>
+
+        <p style="text-align: justify;">
+            I’m a software engineer passionate about building products that reach and positively impact people at a global scale. I enjoy working on meaningful features, improving existing experiences, and constantly learning to broaden my perspective on product and system design. Driven by curiosity and innovation, I strive to grow personally while contributing ideas that create real-world value.
+        </p>
+
+        <div class="social-icons">
+            <a href="https://github.com/aksk8021" target="_blank" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+                <span>GitHub</span>
             </a>
 
-            <i class="bx bx-menu" id="menu-icon"></i>
+            <a href="https://www.linkedin.com/in/ankit-kumar-singh-a76886201/" target="_blank" aria-label="LinkedIn">
+                <i class="bx bxl-linkedin-square"></i>
+                <span>LinkedIn</span>
+            </a>
 
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
+            <a href="https://leetcode.com/u/863Aksk/" target="_blank" aria-label="LeetCode">
+                <!-- LeetCode icon via Boxicons solid + custom style -->
+                <i class="bx bx-code-alt"></i>
+                <span>LeetCode</span>
+            </a>
 
-            <button class="gradient-btn">Contact Me</button>
-        </header>
+            <a href="mailto:863ankit@gmail.com" aria-label="Email">
+                <i class="bx bx-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </div>
 
-        <section class="home" id="home"> 
-            <div class="home-content">
-                <h1>Hi, It's <span>Mark</span> Gray</h1>
-                <h3>
-                    I am an Android Developer
-                </h3>
+    <div class="home-img">
+        <img src="image.jpeg" alt="Ankit Singh">
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <div class="about-container">
+
+        <div class="about-img">
+            <img src="image.jpeg" alt="Ankit Singh">
+        </div>
+
+        <div class="about-content">
+            <h2 class="section-title"><span>About</span> Me</h2>
+
+            <div class="about-section">
+                <h3><i class="fas fa-map-marker-alt"></i> Adaptability & Heritage</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto cupiditate, 
-                    magni nobis aut ratione rerum tempore explicabo. 
-                    Possimus ipsa iure illum quae cumque perspiciatis obcaecati, rem nesciunt officiis eius quidem.
+                    I grew up in Army cantonments across different parts of India, from Tezpur to
+                    Hyderabad. Living in multiple cities shaped my ability to adapt quickly and feel
+                    comfortable in new environments. My native place, Varanasi, keeps me grounded
+                    and connected to my roots, while my upbringing has helped me connect easily
+                    with people from diverse backgrounds.
+                </p>
+            </div>
+
+            <div class="about-section">
+                <h3><i class="fas fa-graduation-cap"></i> Academic Rigor</h3>
+                <p>
+                    Academics have always been an area of consistency for me. I secured a 10.0 CGPA
+                    in my 10th grade, 95.8% in 12th, and completed my B.Tech from CMR College of
+                    Engineering and Technology with a CGPA of 8.86. This journey helped me build a
+                    strong foundation of discipline, focus, and long-term commitment.
+                </p>
+            </div>
+
+            <div class="about-section">
+                <h3><i class="fas fa-medal"></i> Athletic Grit & Performance</h3>
+                <p>
+                    Sports has been a core part of my life and has played a significant role in shaping
+                    my discipline, mindset, and work ethic. I competed at the national level in
+                    Taekwondo and Handball and have also played football at the regional level. Training
+                    and competing over the years taught me far more than physical fitness — it taught
+                    me consistency, accountability, teamwork, and how to stay calm, focused, and
+                    composed under pressure.
+                </p>
+            </div>
+
+            <div class="about-section ssb-card">
+                <h3><i class="fas fa-shield-alt"></i> Leadership & Resilience</h3>
+                <p>
+                    I have attended the Services Selection Board (SSB) interview six times, with three
+                    conference outs. While the journey has been challenging, it strengthened my
+                    resilience and reinforced a mindset of persistence. It also helped me develop
+                    qualities such as integrity, social adaptability, and the ability to perform
+                    under pressure.
+                </p>
+            </div>
+
+            <div class="about-section">
+                <h3><i class="fas fa-pen-nib"></i> Creative Perspective</h3>
+                <p>
+                    Outside of work, I enjoy writing poetry, telling stories, and bringing a sense of
+                    humor into conversations. I value teamwork and like being someone people can
+                    rely on — whether it’s for clear communication, support, or keeping the energy
+                    positive within a group.
                 </p>
 
-                <div class="social-icons">
-                    <a href="#">
-                        <i class="bx bxl-github"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bx bxl-linkedin-square"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bx bxl-instagram-alt"></i>
-                    </a>
-                </div>
-
-                <div class="btn-group">
-                   <a href="#" class="btn">Hire</a>
-                   <a href="#contact" class="btn">Contact</a>                
-                </div>
-
+                <p class="quote">
+                    I see life as a journey guided by curiosity —
+                    <span>like a compass always pointing toward the next uncharted map.</span>
+                </p>
             </div>
-        
-            <div class="home-img">
-                <img src="image.jpeg" alt="">
-            </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <section class="about" id="about">
-            <div class="about-img">
-                <img src="image.jpeg" alt="">
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience" id="experience">
+    <h2 class="heading"><span>Professional </span>Experience</h2>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="experience-header">
+                <h3 class="company-name">Motorola Mobility (a Lenovo Company)</h3>
+                <h4 class="timeline-date">Aug 2022 – Present</h4>
             </div>
 
-            <div class="about-content">
-                <h2>About <span>Me</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi 
-                perspiciatis doloremque velit dolorem ad, vero libero fugiat distinctio, 
-                quam ullam cupiditate inventore? Porro magnam illo quia. Amet, optio nesciunt.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-        </section>
+            <h4 class="role-title">Software Engineer</h4>
 
-        <section class="services" id="services">
-            <h2 class="heading">Services</h2>
-
-            <div class="services-container">
-                <div class="service-box">
-                    <div class="service-info">
-                        <i class="bx bxl-figma"></i>
-                        <h4>UI / UX Design</h4>
-                        <p>Lorem ipsum dolor sit, amet
-                        consectetur adipisicing elit.
-                        Assumenda facilis, ipsa natus
-                        possimus facere architecto sit.
-                        Fugiat, ducimus, voluptatem
-                        dolore itaque ipsam asperiores
-                        maxime quis, quod porro voluptas
-                        laboriosam magnam.</p>
-                    </div>
-                </div>
-                <div class="service-box">
-                    <div class="service-info">
-                        <i class="bx bx-code-alt"></i>
-                            <h4>Frontend developer</h4>
-                            <p>Lorem ipsum dolor sit, amet
-                            consectetur adipisicing elit.
-                            Assumenda facilis, ipsa natus
-                            possimus facere architecto sit.
-                            Fugiat, ducimus, voluptatem
-                            dolore itaque ipsam asperiores
-                            maxime quis, quod porro voluptas
-                            laboriosam magnam.</p>
-                    </div>
-                </div>
-                <div class="service-box">
-                    <div class="service-info">
-                        <i class="bx bx-code-curly"></i>
-                            <h4>Backend developer</h4>
-                            <p>Lorem ipsum dolor sit, amet
-                            consectetur adipisicing elit.
-                            Assumenda facilis, ipsa natus
-                            possimus facere architecto sit.
-                            Fugiat, ducimus, voluptatem
-                            dolore itaque ipsam asperiores
-                            maxime quis, quod porro voluptas
-                            laboriosam magnam.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="projects" id="projects">
-            <h2 class="heading">Projects</h2>
-
-            <div class="projects-box">
-                <div class="project-card">
-                    <img src="image.jpeg" alt="">
-
-                    <h3>Project 1</h3>
-                    <p>Lorem, ipsum dolor sit amet 
-                    consectetur adipisicing elit. Nam in 
-                    tempora voluptate provident quo quas 
-                    voluptatibus dignissimos consequatur 
-                    quae hic cupiditate corporis, libero 
-                    aliquid itaque dolor tenetur 
-                    doloribus animi debitis!</p>
-                    <div class="btn"> Review Project</div>
-                </div>
-
-                <div class="project-card">
-                    <img src="image.jpeg" alt="">
-
-                    <h3>Project 1</h3>
-                    <p>Lorem, ipsum dolor sit amet 
-                    consectetur adipisicing elit. Nam in 
-                    tempora voluptate provident quo quas 
-                    voluptatibus dignissimos consequatur 
-                    quae hic cupiditate corporis, libero 
-                    aliquid itaque dolor tenetur 
-                    doloribus animi debitis!</p>
-                    <div class="btn"> Review Project</div>
-                </div>
-
-                <div class="project-card">
-                    <img src="image.jpeg" alt="">
-
-                    <h3>Project 1</h3>
-                    <p>Lorem, ipsum dolor sit amet 
-                    consectetur adipisicing elit. Nam in 
-                    tempora voluptate provident quo quas 
-                    voluptatibus dignissimos consequatur 
-                    quae hic cupiditate corporis, libero 
-                    aliquid itaque dolor tenetur 
-                    doloribus animi debitis!</p>
-                    <div class="btn"> Review Project</div>
-                </div>
-
-                <div class="project-card">
-                    <img src="image.jpeg" alt="">
-
-                    <h3>Project 1</h3>
-                    <p>Lorem, ipsum dolor sit amet 
-                    consectetur adipisicing elit. Nam in 
-                    tempora voluptate provident quo quas 
-                    voluptatibus dignissimos consequatur 
-                    quae hic cupiditate corporis, libero 
-                    aliquid itaque dolor tenetur 
-                    doloribus animi debitis!</p>
-                    <div class="btn"> Review Project</div>
-                </div>                
-            </div>
-        </section>
-
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me</span></h2>
-
-            <form action="#">
-                <div class="form-group">
-                    <div class="input-group">
-                        <div class="input-box">
-                            <input type="text" placeholder="Full Name">
-                        </div>
-                        <div class="input-box">
-                            <input type="email" placeholder="Email">
-                        </div>
-                        <div class="input-box">
-                            <input type="number" placeholder="Phone Number">
-                        </div>
-                        <div class="input-box">
-                            <input type="text" placeholder="Subject">
-                        </div>
-                    </div>
-                    <div class="textarea-field">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    </div>
-                </div>
-                <div class="btn-box">
-                    <button type="submit" class="btn">Send Message</button>
-                </div>
-            </form>
-        </section>
-
-        <footer class="footer">
-            <div class="social-icons">
-                <a href="#">
-                    <i class="bx bxl-github"></i>
-                </a>
-
-                <a href="#">
-                    <i class="bx bxl-linkedin-square"></i>
-                </a>
-
-                <a href="#">
-                    <i class="bx bxl-instagram-alt"></i>
-                </a>
-            </div>
-
-            <ul class="list">
-                <li>
-                    <a href="#about">About Me</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-            <p class="copyright">
-                © Ankit Kumar Singh | All Rights Reserved
+            <p>
+                I work on Android platform and system-level development, building and maintaining
+                features that ship on production devices used by millions of users worldwide. My
+                work spans core OS components, carrier customization, platform security, and
+                user-facing system features. I am involved across the full development lifecycle —
+                from design and implementation to debugging, optimization, and long-term support —
+                with a strong focus on reliability, performance, and user experience.
             </p>
-        </footer>
-        <script src="js/script.js"></script>
-    </body>
+
+            <div class="experience-block">
+                <strong>What I Work On</strong>
+                <ul>
+                    <li>
+                        Android platform development across Dialer, Telecomm, Telephony, 
+                        including OS version upgrades.
+                    </li>
+                    <li>
+                        Feature development and carrier customization for advanced calling
+                        capabilities across multiple global carriers.
+                    </li>
+                    <li>
+                        Development and maintenance of system applications such as Moto Notes,
+                        including AI-powered and stylus-based features.
+                    </li>
+                    <li>
+                        Cross-functional collaboration with product, QA, and global engineering
+                        teams, with end-to-end ownership from design and implementation to
+                        debugging and production support.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="experience-block">
+                <strong>Key Contributions</strong>
+                <ul>
+                    <li>
+                        Delivered and maintained advanced calling features including
+                        Video Telephony, RTT, Enriched Calling, and Wi-Fi Calling,
+                        ensuring consistent behavior across carriers and devices.
+                    </li>
+
+                    <li>
+                        Led platform security and compliance initiatives, including
+                        FOSSA license scans and remediation across multiple system
+                        components, strengthening overall security and compliance posture.
+                    </li>
+
+                    <li>
+                        Contributed upstream changes and critical stability fixes to
+                        AOSP Telecom, improving call reliability and overall system
+                        performance across production devices.
+                    </li>
+
+                    <li>
+                        Led development of the AI-powered “Sketch to Image” feature in
+                        Moto Notes, collaborating with global teams across China, Brazil,
+                        and the US to ship a production ML feature.
+                    </li>
+
+                    <li>
+                        Designed and implemented palm rejection and multi-input handling
+                        logic in AOSP Canvas, significantly improving stylus and touch
+                        interaction accuracy on stylus-enabled devices.
+                    </li>
+
+                    <li>
+                        Optimized performance for critical calling flows by identifying
+                        bottlenecks, resolving Android OS upgrade regressions, and
+                        improving call setup latency.
+                    </li>
+
+                    <li>
+                        Enabled feature support on foldable and secondary displays,
+                        ensuring seamless user experience across form-factor-specific
+                        devices.
+                    </li>
+
+                    <li>
+                        Standardized system UI behavior for Verified Business Calling
+                        across carriers, reducing inconsistencies and simplifying
+                        long-term maintenance and carrier certification.
+                    </li>
+
+                    <li>
+                        Provided ongoing production support, root-cause analysis, and
+                        cross-team coordination for complex system-level issues in
+                        telecom and calling frameworks.
+                    </li>
+
+                    <li>
+                        Played a key role in Android OS version upgrades for system
+                        applications and telecom components, ensuring feature continuity
+                        and stability across releases.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="experience-block">
+                <strong>Impact</strong>
+                <ul>
+                    <li>
+                        Shipped Android platform and carrier features used by tens of millions of
+                        users globally across production devices.
+                    </li>
+                    <li>
+                        Improved reliability and performance of core calling flows through
+                        platform-level fixes, optimizations, and OS upgrade support.
+                    </li>
+                    <li>
+                        Reduced long-term maintenance and carrier certification effort by
+                        standardizing system UI behavior and resolving cross-carrier inconsistencies.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="services" id="skills">
+    <h2 class="heading"><span>Ski</span>lls</h2>
+
+    <div class="services-scroll">
+
+        <div class="service-box">
+            <div class="service-info">
+                <i class="bx bx-mobile-alt"></i>
+                <h4>Android Development</h4>
+                <p>Android SDK, Kotlin, Java, Jetpack, Coroutines, Hilt, Room, AOSP</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-info">
+                <i class="bx bx-code-alt"></i>
+                <h4>Programming & Patterns</h4>
+                <p>OOP, Clean Architecture, MVVM, Design Patterns</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-info">
+                <i class="bx bx-server"></i>
+                <h4>Backend & Tools</h4>
+                <p>Node.js, Express, MongoDB, REST APIs, JWT, Git, Gradle</p>
+            </div>
+        </div>
+
+        <!-- Add more cards freely -->
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
+    <h2 class="heading"><span>Proj</span>ects</h2>
+
+    <div class="projects-scroll">
+
+        <div class="project-card">
+            <h3>AI-Powered Sketch to Image</h3>
+            <p>
+                Developed an AI-powered Sketch to Image feature for Moto Notes,
+                adopted across stylus-enabled Motorola devices.
+            </p>
+            <p class="project-impact">
+                <strong>Impact:</strong> Improved user engagement on stylus devices
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Advanced Calling Platform</h3>
+            <p>
+                Led Android platform features including Video Telephony, Wi-Fi Calling,
+                RTT, and Enriched Calling with consistent carrier behavior.
+            </p>
+            <p class="project-impact">
+                <strong>Impact:</strong> Used by millions of users globally
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Secure Backend Platform</h3>
+            <p>
+                Built a scalable backend using Node.js and MongoDB with JWT-based
+                authentication and REST APIs.
+            </p>
+        </div>
+
+        <!-- Add more project cards freely -->
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+    <h2 class="heading"><span>Contact </span>Me</h2>
+
+    <form class="contact-form"
+      action="mailto:863ankit@gmail.com"
+      method="POST"
+      enctype="text/plain">
+
+        <!-- LEFT SIDE -->
+        <div class="contact-left">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject">
+            <input type="text" name="company" placeholder="Company / Organization (optional)">
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="contact-right">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+        </div>
+
+        <!-- BUTTON -->
+        <div class="contact-btn">
+            <button type="submit" class="btn">Send Message</button>
+        </div>
+    </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="footer-content">
+        <p>© Ankit Singh | Software Engineer</p>
+
+        <div class="footer-socials">
+            <a href="https://github.com/aksk8021" target="_blank" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ankit-kumar-singh-a76886201/" target="_blank" aria-label="LinkedIn">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+            <a href="https://leetcode.com/u/863Aksk/" target="_blank" aria-label="LeetCode">
+                <i class="bx bx-code-alt"></i>
+            </a>
+
+            <a href="mailto:863ankit@gmail.com" aria-label="Email">
+                <i class="bx bx-envelope"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- ATS hidden keywords -->
+    <p class="ats-keywords">
+        Android Developer, Software Engineer, Kotlin, Java, AOSP, Android OS,
+        Jetpack, Coroutines, Hilt, Room, System Design
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/script_rem.js"></script>
+</body>
 </html>
