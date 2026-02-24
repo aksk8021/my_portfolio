@@ -61,7 +61,3 @@ To adapt this portfolio for your own use:
 2. Adjust styles in `style.css`.
 3. Replace `image.jpeg` and resume PDF with your own files.
 4. Update social/profile links and contact information.
-
-## License
-
-This project currently has no explicit license. Add a `LICENSE` file if you plan to distribute or reuse it publicly.
